@@ -1,3 +1,3 @@
-from .trace import second_trace_invariant_polynomial, relative_trace_invariant_difference
+from .trace import second_trace_invariant_coefficients, second_trace_invariant_polynomial, relative_difference_second_trace, relative_difference_second_trace_per_sector
 
-__all__ = ['second_trace_invariant_polynomial', 'relative_trace_invariant_difference']
+__all__ = ['second_trace_invariant_coefficients', 'second_trace_invariant_polynomial', 'relative_difference_second_trace', 'relative_difference_second_trace_per_sector']
