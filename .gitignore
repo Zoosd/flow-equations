@@ -1,1 +1,2 @@
-sparse_tensors/
+**/sparse_tensors/
+**/__pycache__/
