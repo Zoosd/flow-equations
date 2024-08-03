@@ -148,7 +148,7 @@ def flow_equation(H2:np.ndarray,H4:np.ndarray, method:str = 'vacform',**kwargs) 
         raise Exception('flow_equation: Initial H4 not respecting symmetries')
     
 
-   # Here we set the ODETerm and reshape the initial operator and Hamiltonian.
+    # Here we set the ODETerm and reshape the initial operator and Hamiltonian.
     # In particular, the ODETerms correspond to the following implementations:
     # ↳ tensor:     Original tensor based implementation
     # ↳ normal:     Non-trivial normal ordering (requires n to be passed!)
